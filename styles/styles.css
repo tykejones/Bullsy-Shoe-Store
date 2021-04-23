@@ -1,0 +1,456 @@
+/*--GLOBAL STYLES--*/
+
+body {
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+}
+
+.container {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.red {
+    color: #f55856;
+}
+
+h3 {
+    font-size: 1.875rem;
+    font-family: 'oswald', sans-serif;
+    color: #463f3a;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.125rem;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+p {
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+
+/*---HEADER---*/
+
+
+/*---TOP MENU---*/
+
+.top-menu {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.envelope {
+    margin-left: 24px;
+}
+
+.email,
+.phone-num {
+    margin-left: 8px;
+    font-size: .875rem;
+}
+
+nav.account a {
+    margin-left: 30px;
+    font-size: .875rem;
+    color: #463f3a;
+    transition: .5s;
+}
+
+nav.account a:hover {
+    color: #f55856;
+    transition: .5s;
+}
+
+
+/*---MAIN NAVIGATION---*/
+
+#menu {
+    background-color: #f5f6f1;
+    max-height: 160px;
+    height: 100%;
+    padding: 55px 0;
+    margin-bottom: 40px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.main-nav {
+    flex-grow: 1;
+}
+
+.main-nav a {
+    font-size: 1.125rem;
+    color: #463f3a;
+    transition: .5s;
+}
+
+.main-nav a:after {
+    content: " /";
+    color: #f55856;
+    margin: 0 25px;
+}
+
+a:last-child:after {
+    content: "";
+}
+
+.main-nav a:hover {
+    color: #f55856;
+    transition: .5s;
+}
+
+.cart {
+    font-size: 1.125rem;
+}
+
+.amount-due {
+    display: block;
+    float: left;
+    line-height: .4;
+}
+
+.items {
+    color: #2a2b2c;
+}
+
+.box {
+    display: inline-block;
+    padding: 15px 0 0 10px;
+}
+
+
+/*---END HEADER---*/
+
+
+/*---HERO BANNER SLIDER---*/
+
+.container.hero {
+    background-image: url('../images/slideShwImgShoe.png');
+    display: flex;
+    align-items: center;
+    height: 520px
+}
+
+.cta {
+    flex-grow: 1;
+    font-size: 3.75rem;
+    font-family: 'oswald', sans-serif;
+    color: #fff;
+    margin-left: 45px;
+    line-height: .65;
+}
+
+
+/*---BENEFITS SECTION---*/
+
+.perks {
+    display: flex;
+    margin-top: 40px;
+}
+
+.customer-info {
+    display: block;
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f5f6f1;
+    line-height: .65;
+    padding-bottom: 25px;
+}
+
+.ns-collection {
+    margin: 0 40px;
+}
+
+
+/*---CATEGORY,ARRIVALS,FEATURED,BLOG - GLOBAL STYLES---*/
+
+h3.border-heading {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h3.border-heading:after {
+    display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #463f3a;
+    width: 430px;
+}
+
+h3.border-heading:before {
+    display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #463f3a;
+    width: 450px;
+}
+
+.category-info {
+    padding: 0 0 0 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.category-info p {
+    font-size: 20px;
+}
+
+.laces,
+.winter-boots,
+.casusal-puddle {
+    margin-right: 20px;
+}
+
+.running {
+    margin: 0 20px;
+}
+
+.brown-button {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'oswald', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    background-color: #463f3a;
+    color: #fff;
+    padding: 5px 0;
+    transition: .7s;
+}
+
+.brown-button:hover {
+    background-color: #f55856;
+    color: #463f3a;
+    transition: .3s;
+}
+
+
+/*---OUR SHOE CATEGORIES---*/
+
+#categories {
+    background-color: #f8f8f8;
+    padding-bottom: 20px;
+}
+
+.categories {
+    display: flex;
+}
+
+.category {
+    width: 33%;
+    background-color: #fff;
+}
+
+.category a:hover {
+    border-bottom: solid 1px #f55856;
+    transition: .25s;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*---OUR LATEST ARRIVALS---*/
+
+#arrivals {
+    background-color: #fdfdfd;
+    padding-bottom: 20px;
+}
+
+.arrivals {
+    display: flex;
+}
+
+.arrival {
+    width: 25%;
+}
+
+.latest {
+    width: 100%;
+    height: auto;
+}
+
+
+/*---FEATURED PRODUCTS---*/
+
+#featured {
+    background-color: #f8f8f8;
+    padding-bottom: 20px
+}
+
+.featured {
+    display: flex;
+}
+
+.feature {
+    width: 25%;
+}
+
+.latest {
+    width: 100%;
+    height: auto;
+}
+
+
+/*---LATEST FROM THE BLOG---*/
+
+#blog {
+    background-color: #fdfdfd;
+    padding-bottom: 20px;
+}
+
+.blog-posts {
+    display: flex;
+}
+
+.blog {
+    width: 33%;
+}
+
+.blog a:hover {
+    border-bottom: solid 1px #f55856;
+    transition: .25s;
+}
+
+.blog img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*---POLICY---*/
+
+#policy {
+    background-color: #f2f2f0;
+    padding: 25px 0;
+    text-align: center;
+    line-height: .5;
+}
+
+.store-policy>h3 {
+    font-size: 2.25rem;
+    text-transform: uppercase;
+}
+
+.store-policy a:hover {
+    border-bottom: solid 1px #f55856;
+    transition: .25s;
+}
+
+.store-policy>p {
+    color: #6c6c6c;
+}
+
+
+/*---FOOTER---*/
+
+#footer {
+    background-color: #463f3a;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+    color: #fff;
+    text-align: center;
+}
+
+a.up-home>img:hover {
+    margin-bottom: 5px;
+}
+
+.menu-copy a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    transition: .3s;
+}
+
+.menu-copy a:after {
+    content: " /";
+    color: #f55856;
+    margin: 0 25px;
+}
+
+.menu-copy a:last-child:after {
+    content: "";
+}
+
+.menu-copy a:hover {
+    color: #f55856;
+    transition: .3s;
+}
+
+.menu-copy p {
+    font-size: .875rem;
+}
+
+
+/*---SOCIAL MEDIA---*/
+
+#social-media {
+    background-color: #eeeeee;
+    padding: 15px 0;
+    line-height: .5;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    margin-left: 20px;
+}
+
+.social-icons:hover {
+    background-color: #f55856;
+    border-radius: 70%;
+}
+
+.disclaimer p {
+    font-size: .625rem;
+    text-align: center;
+}
+
+.me:hover {
+    border-bottom: solid 1px #f55856;
+    transition: .25s;
+}
